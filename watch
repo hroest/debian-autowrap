@@ -1,0 +1,4 @@
+version=0.5.0
+opts=uversionmangle=s/(rc|dev|a|b|c)/~$1/ \
+https://pypi.python.org/packages/source/a/autowrap/autowrap-(.*)\.(?:tar\.gz|zip|tar\.bz2)
+
