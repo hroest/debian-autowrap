@@ -7,7 +7,9 @@ Build-Depends: debhelper (>= 9.2),
                python-all (>= 2.6.6-3~),
                python-setuptools,
                python3-all, 
-               python3-setuptools
+               python3-setuptools,
+               cython,
+               libboost-dev
 Standards-Version: 3.9.5
 Section: libs
 
