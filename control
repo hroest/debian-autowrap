@@ -4,7 +4,7 @@ Maintainer: xxx
 Uploaders: xxx
 Build-Depends: debhelper (>= 9.2), 
                dh-python,
-               python-all (>= 2.6.6-3~)
+               python-all (>= 2.6.6-3~),
                python-setuptools,
                python3-all, 
                python3-setuptools
