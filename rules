@@ -1,5 +1,6 @@
 #export DH_VERBOSE=1
 export PYBUILD_NAME=python-autowrap
+rm -rf autowrap/data_files/boost/
 
 %:
         dh $@ --with python2,python3 --buildsystem=pybuild
