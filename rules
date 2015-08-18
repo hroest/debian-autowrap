@@ -1,6 +1,9 @@
 #export DH_VERBOSE=1
 export PYBUILD_NAME=python-autowrap
 rm -rf autowrap/data_files/boost/
+rm -rf autowrap/__pycache__/
+rm -rf autowrap/data_files/__pycache__/
+rm -rf autowrap/data_files/*.pyc
 
 %:
         dh $@ --with python2,python3 --buildsystem=pybuild
